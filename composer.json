@@ -1,0 +1,30 @@
+{
+  "name": "omnivideo/omnivideo-sdk",
+  "description": "Omni Video PHP SDK — generate video and image content with the Gemini Omni Video series of models.",
+  "type": "library",
+  "license": "MIT",
+  "keywords": ["omni video", "omnivideo", "gemini omni video", "ai video", "ai image", "seedance"],
+  "homepage": "https://omnivideo.net/",
+  "authors": [
+    { "name": "Omni Video", "homepage": "https://omnivideo.net/" }
+  ],
+  "support": {
+    "docs": "https://omnivideo.net/api-docs",
+    "source": "https://omnivideo.net/"
+  },
+  "require": {
+    "php": ">=7.4",
+    "ext-curl": "*",
+    "ext-json": "*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.5 || ^10.0"
+  },
+  "autoload": {
+    "psr-4": { "OmniVideo\\": "src/" }
+  },
+  "autoload-dev": {
+    "psr-4": { "OmniVideo\\Tests\\": "tests/" }
+  },
+  "minimum-stability": "stable"
+}
